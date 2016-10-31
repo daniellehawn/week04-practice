@@ -1,8 +1,133 @@
 <style>
-
-footer{
-  border-top: 0.25rem solid black;
+html, body {
+  margin: 10;
+  padding: 0;
+  height: 100%;
   clear: both;
+  }
+
+p, ul, li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
 }
 
+/* header styles */
+header {
+  background: black;
+  padding: 6px 12px 10px 20px;
+  clear: both;
+  }
+
+ul.headernav {
+  list-style-type: none;
+  margin: 0;
+  padding:  0 .6em;
+  overflow: hidden;
+  background: rgb(166, 166,166);
+}
+
+ul.headernav li {float: left}
+
+ul.headernav li a {
+  display: inline-block;
+  color: rgb(90, 0, 102);
+  text-align: center;
+  padding: .5em .7em;
+  text-decoration: underline;
+  font-size: 1.25em;
+}
+
+/* footer styles */
+footer {
+  background: black;
+  color: white;
+  padding: .25em 0em;
+  margin: 0;
+  font-family: Segoe UI, Arial, sans-serif;
+  clear: both;
+  }
+
+footer li {
+  list-style-type: none;
+}
+  
+footer a {
+  color: white;
+  }
+
+ul.center {
+  text-align: center;
+}
+
+/* header styles */
+h1 {
+  text-align: left  ;
+  color: white;
+  font-size: 2.5em;
+  padding: 0;
+  margin: 0;
+  }
+  
+h4 {
+  color: rgb(144, 144, 144);
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.3em;
+  text-align: center;
+  margin: 0;
+}
+
+/* aside styles */
+
+aside {
+  float: right;
+  width: 19.5rem;
+  margin: 15px;
+  border: 2px solid black;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+figcaption {
+  text-align: left;
+}
+
+.booknow {
+  text-align: right;
+}
+
+/* section */
+section {
+  padding-left: 20px;
+}
+
+/* call to action */
+a.cta:link {
+  color: rgb(239,6,10);
+  font-size: 1.20em;
+}
+
+.cta {
+  text-align: right;
+}
+
+a.contact:link {
+  color: rgb(239,6,10);
+}
+
+/* testimonials */
+q {
+  font-style: italic;
+}
 </style>
